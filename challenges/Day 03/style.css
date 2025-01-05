@@ -1,0 +1,58 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #0077ff, #00ff77);
+    color: white;
+  }
+  
+  .container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .quote-box {
+    margin-bottom: 20px;
+  }
+  
+  #quote {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #author {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  button {
+    background-color: #00ff77;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #00cc66;
+  }
+  
